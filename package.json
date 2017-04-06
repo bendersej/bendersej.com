@@ -1,0 +1,23 @@
+{
+  "name": "bendersej-website",
+  "version": "0.0.1",
+  "description": "Bendersej website",
+  "main": "index.js",
+  "author": "bendersej",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^2.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.42.0"
+  }
+}

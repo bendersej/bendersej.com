@@ -1,0 +1,383 @@
+
+a {
+  text-decoration:none;
+  cursor:pointer;
+  color:inherit;
+}
+
+
+html, body {
+	
+	background-color: white;
+	min-width: 45em;
+	margin:0;
+	width:100%;
+	height: 100%;
+  font-family:"Lato";
+}
+
+section {
+  width:100%;
+}
+
+.tooltip {
+  display:inherit;
+  position:relative;
+
+}
+
+.tooltip:hover {
+  z-index:1;
+}
+
+.tooltip:hover:after {
+   opacity:1;
+    -webkit-transition-delay: 0.3s; /* Safari */
+    transition-delay: 0.3s;
+}
+
+.tooltip:hover:before {
+  opacity:1;
+    -webkit-transition-delay: 0.3s; /* Safari */
+    transition-delay: 0.3s;
+}
+
+.tooltip:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(100,100,100,0.95);
+  color: white;
+  padding:7px;
+  border-radius:3px;
+  content: attr(aria-label);
+  display:flex;
+  -webkit-display:flex;
+ 
+  font-size:13px;
+  line-height:1.6;
+  position:absolute;
+  left:0;
+  right:0;
+  top:130%;
+  margin:0 auto;
+  min-width:100px;
+  pointer-events:none;
+  opacity:0;
+}
+
+.tooltip:before {
+
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid rgba(100,100,100,100.95);
+  content:"";
+
+  position:absolute;
+  top:130%;
+  left:0;
+  right:0;
+  margin:-5px auto 0 auto;
+
+  pointer-events:none;
+  opacity:0;
+
+  
+}
+
+.content {
+  width:43em;
+  margin:0 auto;
+  padding:45px 0;
+  display:flex;
+  -webkit-display:flex;
+  flex-wrap:wrap;
+  position:relative;
+}
+
+.picture {
+  width:8.5em;
+  height:8.5em;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -ms-border-radius:3px;
+  position:relative;
+}
+
+.picture > div{
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-image: url("/static/img/chick_picture.png");
+  background-size:100%;
+  width:50px;
+  height:50px;
+  transition:0.3s ease-in;
+  opacity:0;
+}
+
+.picture:hover > div {
+  opacity:1;
+}
+
+
+.header {
+  margin-left:3em;
+  cursor:default;
+}
+
+.header > h1 {
+  margin:0;
+}
+
+.header > h2 {
+  color:#AAA;
+  margin-top:3px;
+  font-weight:300;
+}
+
+.header > h2:hover > a,
+.header > h2 > a:hover {
+  color:#3EDC81;
+}
+
+
+.contact {
+  padding:0;
+  list-style:none;
+}
+
+.contact-link {
+  display:inline-block;
+  color:#737373;
+  margin-right: 1.35em;
+  font-size:25px;
+
+  position:relative;
+}
+
+.contact-link > a:last-child {
+  display:none;
+}
+
+.contact > li:nth-child(1):hover {
+  color:#55acee
+}
+
+.contact > li:nth-child(2):hover {
+  color:#4875B4
+}
+
+.contact > li:nth-child(3):hover {
+  color:#ea4c89
+}
+
+.contact > li:nth-child(4):hover {
+  color:#909090
+}
+
+.contact > li:nth-child(5):hover {
+  color:#12A5F4
+}
+
+.contact > li:nth-child(6):hover {
+  color:#3EDC81
+}
+
+.section-header {
+  width:100%;
+  font-size:1.3em;
+  color:#AAA;
+  text-transform:uppercase;
+  margin-top:1.5em;
+  font-weight:300;
+  cursor:default;
+}
+
+
+.section-tile,
+.section-tile-link {
+  display:flex;
+  -webkit-display:flex;
+  width:100%;
+  position:relative;
+}
+
+.section-tile {
+  cursor:default;
+}
+
+.section-tile > img,
+.section-tile-link > img {
+  position:absolute;
+  left:0;
+  top:0;
+  height: 60px;
+
+}
+
+.section-tile-link:hover .section-title:before {
+  opacity: 1;
+  -webkit-transform: translateX(-15px);
+  -moz-transform: translateX(-15px);
+  transform: translateX(-15px);
+}
+
+.section-tile-link:hover .section-title:after {
+  opacity: 1;
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+
+.section-tile-link:hover > div > div > span {
+  background:#2b98db;
+  border-color:#2b98db;
+  color:white;
+}
+
+.section-content {
+  padding: 16px 0 10px 185px;
+}
+
+.section-content > p {
+  margin:0;
+}
+
+.section-block {
+  display:flex;
+  -webkit-display:flex;
+  justify-content:space-between;
+  -webkit-justify-content:space-between;
+  -ms-justify-content:space-between;
+  margin-top:16px;
+  padding-left:185px;
+
+}
+
+.section-list {
+  
+  list-style:none;
+    width:185px;
+    padding:0;
+    margin:0;
+    color:#737373;
+    font-size:15px;
+    line-height:1.6;
+    min-width:200px;
+    font-weight:300;
+}
+
+.section-list > li:first-child {
+  font-size:17px;
+  color:initial;
+  font-weight:400;
+}
+
+.section-title {
+  color:#333333;
+  font-weight:700;
+  position:relative;
+  display:inline-block;
+}
+
+.section-title:before {
+  position:absolute;
+  left:0;
+    content: '[';
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
+
+}
+
+.section-title:before,
+.section-title:after {
+
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.section-title:after {
+  position:absolute;
+  right:0;
+    content: ']';
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.section-content > p:nth-child(2) {
+  color:#AAA;
+  margin-top:3px;
+  font-weight:300;
+}
+
+.section-content > p:nth-child(3) {
+  color:#737373;
+}
+
+
+.section-tags-container {
+  display:flex;
+  flex-wrap:wrap;
+  margin:5px -5px 0 -5px;
+}
+.section-tags-container > span {
+  border:2px solid #d6d5d5;
+  border-radius:2px;
+  padding:3px 5px;
+  font-size:11px;
+  margin:5px;
+  color:#737373;
+  transition:0.15s ease-in;
+}
+
+
+.print-btn {
+  margin-top:60px;
+
+  border-radius:3px;
+  padding:5px 10px;
+  background:transparent;
+  outline:none;
+  color:#737373;
+  font-size:13px;
+  border:2px solid #EFEFEF;
+  cursor:pointer;
+}
+
+.print-btn:hover {
+  border-color:#2b98db;
+}
+
+@media print {
+  .section-content > p:nth-child(1) {
+    color:#333333;
+    font-weight:500;
+  }
+
+  .contact-link  {
+    font-size:14px;
+    width:50%;
+    display:flex;
+    -webkit-display:flex;
+    margin-bottom:5px;
+  }
+
+  .contact-link > a:last-child {
+    display:block;
+    margin-left:15px;
+  }
+
+  .print-btn {
+    display:none;
+  }
+}
