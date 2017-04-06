@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/*
+.next/
+
+# MacOS config file
+.DS_Store
+
+# NPM log
+npm-debug.log
+
+# Git related files
+.git/*
