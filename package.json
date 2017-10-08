@@ -7,9 +7,8 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "next",
-		"build": "next build",
-		"start": "next start",
-		"deploy": "pm2 start npm --name 'bendersej.com' -- start --watch -p 8082"
+		"start": "next build && next start -p 8082",
+		"deploy": "pm2 start npm --name 'bendersej.com' --watch -- start"
 	},
 	"dependencies": {
 		"autoprefixer": "^7.1.4",
