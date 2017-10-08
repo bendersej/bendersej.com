@@ -1,30 +1,31 @@
 {
-  "name": "bendersej-website",
-  "version": "0.0.1",
-  "description": "Bendersej website",
-  "main": "index.js",
-  "author": "bendersej",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "pm2 start yarn --name 'bendersej.com' -- start --watch"
-  },
-  "dependencies": {
-    "autoprefixer": "^7.1.4",
-    "next": "3.2.2",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-loader": "^2.0.6",
-    "raw-loader": "^0.5.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.0.0",
-    "babel-plugin-inline-react-svg": "^0.4.0",
-    "eslint": "^4.7.2",
-    "eslint-config-prettier": "^2.6.0",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6"
-  }
+	"name": "bendersej-website",
+	"version": "0.0.1",
+	"description": "Bendersej website",
+	"main": "index.js",
+	"author": "bendersej",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start":
+			"next build && pm2 start ./node_modules/next/dist/bin/next-start --name 'bendersej.com' --watch -p 8082"
+	},
+	"dependencies": {
+		"autoprefixer": "^7.1.4",
+		"next": "3.2.2",
+		"postcss-easy-import": "^3.0.0",
+		"postcss-loader": "^2.0.6",
+		"raw-loader": "^0.5.1",
+		"react": "16.0.0",
+		"react-dom": "^15.5.4"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.0.0",
+		"babel-plugin-inline-react-svg": "^0.4.0",
+		"eslint": "^4.7.2",
+		"eslint-config-prettier": "^2.6.0",
+		"node-sass": "^4.5.3",
+		"sass-loader": "^6.0.6"
+	}
 }
