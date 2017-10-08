@@ -48,7 +48,7 @@ path {
 		border-left: 5px solid transparent;
 		border-right: 5px solid transparent;
 
-		border-bottom: 5px solid rgba(100, 100, 100, 100.95);
+		border-bottom: 5px solid black;
 		content: "";
 
 		position: absolute;
@@ -337,8 +337,15 @@ path {
 }
 
 .tile__img-container {
+	height: 40px;
 	min-width: 150px;
 	margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	> img {
+		height: 100%;
+		width: auto;
+	}
 }
 
 .tile__tag-container {
