@@ -16,12 +16,13 @@ const iconOf = {
 
 export default props => {
   return (
-    <li className="contact__link tooltip" aria-label={props.label}>
+    <li className="contact__link tooltip">
       <a
         className={`contact__icon contact__icon--${props.type}`}
         href={props.type === 'email' ? `mailto:${props.href}` : props.href}
         target="_blank"
-        rel="noopener">
+        rel="noopener"
+        aria-label={props.label}>
         {iconOf[props.type]}
         <span>{props.href}</span>
       </a>
