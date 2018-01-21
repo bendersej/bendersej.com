@@ -13,19 +13,19 @@
 	},
 	"dependencies": {
 		"autoprefixer": "^7.1.4",
-		"next": "3.2.2",
+		"next": "^4.2.3",
 		"postcss-easy-import": "^3.0.0",
 		"postcss-loader": "^2.0.6",
 		"raw-loader": "^0.5.1",
-		"react": "15.5.4",
-		"react-dom": "15.5.4"
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
 	},
 	"devDependencies": {
 		"babel-eslint": "^8.0.0",
 		"babel-plugin-inline-react-svg": "^0.4.0",
 		"eslint": "^4.7.2",
 		"eslint-config-prettier": "^2.6.0",
-		"node-sass": "^4.5.3",
+		"node-sass": "^4.7.2",
 		"sass-loader": "^6.0.6"
 	}
 }
