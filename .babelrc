@@ -1,4 +1,15 @@
 {
-   "presets": ["next/babel"],
-   "plugins": ["inline-react-svg"]
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": [
+            "styled-jsx-plugin-postcss"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": ["inline-react-svg"]
 }
