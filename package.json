@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build",
+		"build": "rm -rf .next/ && next build",
 		"start": "next start -p 8082",
 		"upload-build": "scp -r package.json yarn.lock pm2.config.json .next/ public/ root@juniortechjobs.com:/var/www/bendersej.com",
 		"start-server": "ssh root@juniortechjobs.com 'cd /var/www/bendersej.com/ && yarn install && pm2 start pm2.config.json'",
