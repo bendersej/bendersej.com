@@ -11,7 +11,7 @@ export default () => {
 
   return (
     <React.Fragment>
-      <Head title="bendersej" />
+      <Head title="bendersej" url="https://bendersej.com" description="Benjamin André-Micolon" />
       <div className="home">
         <div className="home__chick">
           <div className="home__chick-eye" onClick={handleChickEyeClick} />

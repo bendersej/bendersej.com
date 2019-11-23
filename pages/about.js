@@ -6,7 +6,7 @@ import { BACKGROUND, EDUCATION, MISC, CONTACT } from '../lib/constants';
 
 export default () => (
   <React.Fragment>
-    <Head title="About" />
+    <Head title="About" url="https://bendersej.com/about" description="Senior Software Engineer" />
     <div className="about">
       <Header title="Senior Software Engineer" name="Benjamin André-Micolon" contact={CONTACT} />
       <h3 className="about__header">background</h3>
