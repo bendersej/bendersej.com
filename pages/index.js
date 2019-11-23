@@ -50,7 +50,7 @@ export default () => {
           height: 18px;
           border-radius: 100%;
           background: black;
-          animation: squeeze 2s infinite;
+          animation: squeeze 1.4s infinite;
         }
 
         .home__header {
