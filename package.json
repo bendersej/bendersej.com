@@ -5,10 +5,12 @@
 	"author": "bendersej",
 	"license": "MIT",
 	"scripts": {
-		"dev": "next",
+		"dev": "next dev",
 		"build": "next build",
-		"start": "next start -p 8082",
-		"deploy": "pm2 start npm --name 'bendersej.com' --watch -- start"
+		"start": "next start -p 8080",
+		"upload-build": "scp -r package.json yarn.lock pm2.config.json .next/ root@juniortechjobs.com:/var/www/bendersej.com",
+		"start-server": "ssh root@juniortechjobs.com 'cd /var/www/bendersej.com/ && yarn install && pm2 start pm2.config.json'",
+		"deploy": "yarn build && yarn upload-build && yarn start-server"
 	},
 	"dependencies": {
 		"next": "^9.1.4",
@@ -21,6 +23,7 @@
 		"babel-eslint": "^8.0.0",
 		"babel-plugin-inline-react-svg": "^0.4.0",
 		"eslint": "^4.7.2",
-		"eslint-config-prettier": "^2.6.0"
+		"eslint-config-prettier": "^2.6.0",
+		"prettier": "^1.19.1"
 	}
 }
