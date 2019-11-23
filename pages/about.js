@@ -8,7 +8,7 @@ export default () => (
   <React.Fragment>
     <Head title="About" />
     <div className="about">
-      <Header title="Senior Front-End Engineer" name="Benjamin André-Micolon" contact={CONTACT} />
+      <Header title="Senior Software Engineer" name="Benjamin André-Micolon" contact={CONTACT} />
       <h3 className="about__header">background</h3>
       {BACKGROUND.map((experience, idx) => (
         <Tile key={idx} content={experience} isHoverable />
