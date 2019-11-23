@@ -98,15 +98,15 @@ export default () => {
 
         @media screen and (max-width: 768px) {
           .home__chick {
-            width: 100%;
+            width: 350px;
             height: 350px;
           }
-        }
 
-        @media screen and (max-width: 320px) {
           .home__chick-eye {
-            top: 120px;
+            top: 70px;
             left: 100px;
+            width: 14px;
+            height: 14px;
           }
         }
       `}</style>
