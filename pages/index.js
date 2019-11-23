@@ -5,7 +5,7 @@ import Head from '../components/Head';
 
 export default () => {
   const handleChickEyeClick = () => {
-    const audio = new Audio('/static/horse-neighing.mp3');
+    const audio = new Audio('/horse-neighing.mp3');
     return audio.play();
   };
 
@@ -36,7 +36,7 @@ export default () => {
           position: relative;
           width: 450px;
           height: 450px;
-          background-image: url('/static/img/chick.svg');
+          background-image: url('/img/chick.svg');
           background-repeat: no-repeat;
           background-position: center center;
         }

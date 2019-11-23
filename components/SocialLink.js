@@ -1,8 +1,8 @@
-import Medium from '../static/img/medium.svg';
-import Dribbble from '../static/img/dribbble.svg';
-import Twitter from '../static/img/twitter.svg';
-import LinkedIn from '../static/img/linkedin.svg';
-import Email from '../static/img/email.svg';
+import Medium from '../public/img/medium.svg';
+import Dribbble from '../public/img/dribbble.svg';
+import Twitter from '../public/img/twitter.svg';
+import LinkedIn from '../public/img/linkedin.svg';
+import Email from '../public/img/email.svg';
 
 import React from 'react';
 

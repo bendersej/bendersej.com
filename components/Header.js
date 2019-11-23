@@ -4,7 +4,7 @@ export default (props) => (
   <React.Fragment>
     <div className="header">
       <div className="header__picture">
-        <img src="/static/img/ben.png" className="picture" alt="Profile picture" />
+        <img src="/img/ben.png" className="picture" alt="Profile picture" />
       </div>
       <div className="header__info">
         <h1>{props.name}</h1>
@@ -50,7 +50,7 @@ export default (props) => (
             position: absolute;
             bottom: 5px;
             left: 0;
-            background-image: url('/static/img/chick_picture.png');
+            background-image: url('/img/chick_picture.png');
             background-size: 100%;
             width: 50px;
             height: 50px;
