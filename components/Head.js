@@ -1,8 +1,30 @@
 import Head from 'next/head';
-import { useGoogleAnalytics } from '../lib/react-ga';
+
+const GOOGLE_ANALYTICS_TAG =
+  process.env.NODE_ENV === 'production' ? process.env.GOOGLE_ANALYTICS_TAG : null;
+
+const initGa = () => {
+  if (GOOGLE_ANALYTICS_TAG === null) {
+    console.warn('GOOGLE_ANALYTICS_TAG is not defined');
+    return;
+  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', GOOGLE_ANALYTICS_TAG);
+};
 
 export default (props) => {
-  useGoogleAnalytics();
+  React.useEffect(() => {
+    if (typeof window === undefined) {
+      return;
+    }
+
+    initGa();
+  }, []);
 
   return (
     <React.Fragment>
@@ -25,6 +47,11 @@ export default (props) => {
         <meta property="og:image:height" content="630" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" />
+        {GOOGLE_ANALYTICS_TAG !== null && (
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_TAG}`}></script>
+        )}
       </Head>
       <style jsx global>{`
         body {

@@ -18,7 +18,7 @@ export default () => {
         </div>
         <div>
           <h1 className="home__header">bendersej</h1>
-          <Link prefetch href="/about">
+          <Link href="/about">
             <a className="home__link">The only link on this page</a>
           </Link>
         </div>
