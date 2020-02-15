@@ -47,7 +47,7 @@ export default () => (
           font-size: 26px;
           color: #484848;
           text-transform: uppercase;
-          margin: 45px 0 0;
+          margin: 40px 0 0;
           font-weight: 400;
           letter-spacing: 2px;
         }
@@ -86,7 +86,7 @@ export default () => (
           outline: none;
           color: #737373;
           font-size: 13px;
-          border: 2px solid #efefef;
+          border: 1px solid #efefef;
           cursor: pointer;
 
           &:hover {
@@ -104,6 +104,9 @@ export default () => (
           }
         }
         @media print {
+          .about__header {
+            margin: 28px 0 0;
+          }
           .about__print-btn {
             display: none;
           }

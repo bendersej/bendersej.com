@@ -113,7 +113,7 @@ export default ({ content, isHoverable }) => (
       }
 
       .tile__tag {
-        border: 2px solid #d6d5d5;
+        border: 1px solid #d6d5d5;
         border-radius: 2px;
         padding: 3px 5px;
         font-size: 14px;
