@@ -2,13 +2,13 @@ import React from 'react';
 import Head from '../components/Head';
 import Tile from '../components/Tile';
 import Header from '../components/Header';
-import { BACKGROUND, EDUCATION, MISC, CONTACT } from '../lib/constants';
+import { BACKGROUND, EDUCATION, MISC, CONTACT, CURRENT_TITLE } from '../lib/constants';
 
 export default () => (
   <React.Fragment>
-    <Head title="About" url="https://bendersej.com/about" description="Senior Software Engineer" />
+    <Head title="About" url="https://bendersej.com/about" description={CURRENT_TITLE} />
     <div className="about">
-      <Header title="Senior Software Engineer" name="Benjamin André-Micolon" contact={CONTACT} />
+      <Header title={CURRENT_TITLE} name="Benjamin André-Micolon" contact={CONTACT} />
       <h3 className="about__header">background</h3>
       {BACKGROUND.map((experience, idx) => (
         <Tile key={idx} content={experience} isHoverable />
