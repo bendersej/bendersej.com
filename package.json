@@ -15,15 +15,15 @@
 	"dependencies": {
 		"next": "^9.1.4",
 		"postcss-nested": "^4.2.1",
-		"react": "^16.12.0",
-		"react-dom": "^16.12.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
 		"styled-jsx-plugin-postcss": "^2.0.1"
 	},
 	"devDependencies": {
-		"babel-eslint": "^8.0.0",
-		"babel-plugin-inline-react-svg": "^0.4.0",
-		"eslint": "^4.7.2",
-		"eslint-config-prettier": "^2.6.0",
-		"prettier": "^1.19.1"
+		"babel-eslint": "^10.1.0",
+		"babel-plugin-inline-react-svg": "^1.1.1",
+		"eslint": "^7.0.0",
+		"eslint-config-prettier": "^6.11.0",
+		"prettier": "^2.0.5"
 	}
 }
