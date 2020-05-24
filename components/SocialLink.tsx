@@ -1,10 +1,6 @@
-import Medium from '../public/img/medium.svg';
-import Dribbble from '../public/img/dribbble.svg';
-import Twitter from '../public/img/twitter.svg';
-import LinkedIn from '../public/img/linkedin.svg';
-import Email from '../public/img/email.svg';
+import * as React from 'react';
 
-import React from 'react';
+import { Medium, Dribbble, Twitter, LinkedIn, Email } from './Icons';
 
 const iconOf = {
   medium: <Medium />,
@@ -14,7 +10,13 @@ const iconOf = {
   email: <Email />,
 };
 
-export default (props) => {
+interface Props {
+  label: string;
+  type: keyof typeof iconOf;
+  href: string;
+}
+
+export const SocialLink: React.FunctionComponent<Props> = (props) => {
   return (
     <React.Fragment>
       <li className="contact__link tooltip" aria-label={props.label}>

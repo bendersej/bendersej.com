@@ -168,7 +168,11 @@ export const MISC = [
   },
 ];
 
-export const CONTACT = [
+export const CONTACT: {
+  type: 'medium' | 'dribbble' | 'twitter' | 'linkedin' | 'email';
+  href: string;
+  label: string;
+}[] = [
   {
     type: 'medium',
     href: 'https://medium.com/@bendersej',

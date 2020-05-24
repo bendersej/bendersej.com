@@ -1,4 +1,3 @@
-//@flow
 import React from 'react';
 import Link from 'next/link';
 import Head from '../components/Head';

@@ -1,6 +1,17 @@
-import SocialLink from './SocialLink';
+import * as React from 'react';
+import { SocialLink } from './SocialLink';
 
-export default (props) => (
+interface Props {
+  name: string;
+  title: string;
+  contact: {
+    label: string;
+    href: string;
+    type: 'linkedin' | 'medium' | 'dribbble' | 'email' | 'twitter';
+  }[];
+}
+
+export const Header: React.FunctionComponent<Props> = (props) => (
   <React.Fragment>
     <div className="header">
       <div className="header__picture">

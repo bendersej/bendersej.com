@@ -1,4 +1,17 @@
-export default ({ content, isHoverable }) => (
+import * as React from 'react';
+
+interface Props {
+  content: {
+    title: string;
+    duration: string;
+    skills?: string[];
+    img: string;
+    href: string;
+  };
+  isHoverable?: boolean;
+}
+
+export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) => (
   <React.Fragment>
     <a
       className={isHoverable ? 'tile tile--hoverable' : 'tile'}
