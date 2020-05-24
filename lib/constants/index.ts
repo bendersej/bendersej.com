@@ -14,6 +14,9 @@ export const BACKGROUND = [
     img: '/img/sixfold.svg',
     duration: 'January 2018 - Present',
     skills: [
+      'Teaching',
+      'Mentoring',
+      'Management',
       'React',
       'Typescript',
       'Node',

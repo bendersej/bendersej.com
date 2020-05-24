@@ -1,5 +1,5 @@
 import React from 'react';
-import Head from '../components/Head';
+import { Head } from '../components/Head';
 import { Tile } from '../components/Tile';
 import { Header } from '../components/Header';
 import { BACKGROUND, EDUCATION, MISC, CONTACT, CURRENT_TITLE } from '../lib/constants';

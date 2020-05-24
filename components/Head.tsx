@@ -1,4 +1,5 @@
-import Head from 'next/head';
+import * as React from 'react';
+import NextHead from 'next/head';
 
 const GOOGLE_ANALYTICS_TAG =
   process.env.NODE_ENV === 'production' ? process.env.GOOGLE_ANALYTICS_TAG : null;
@@ -9,7 +10,7 @@ const initGa = () => {
     return;
   }
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
+  function gtag(_1: any, _2: any) {
     dataLayer.push(arguments);
   }
   gtag('js', new Date());
@@ -17,7 +18,14 @@ const initGa = () => {
   gtag('config', GOOGLE_ANALYTICS_TAG);
 };
 
-export default (props) => {
+interface Props {
+  description: string;
+  url: string;
+  ogImage?: string;
+  title: string;
+}
+
+export const Head: React.FunctionComponent<Props> = (props) => {
   React.useEffect(() => {
     if (typeof window === undefined) {
       return;
@@ -28,7 +36,7 @@ export default (props) => {
 
   return (
     <React.Fragment>
-      <Head>
+      <NextHead>
         <title>{props.title || ''}</title>
         <meta name="description" content={props.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -52,7 +60,7 @@ export default (props) => {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_TAG}`}></script>
         )}
-      </Head>
+      </NextHead>
       <style jsx global>{`
         body {
           font-family: 'Inconsolata', monospace;

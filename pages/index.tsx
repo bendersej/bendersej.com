@@ -1,11 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from '../components/Head';
+import { Head } from '../components/Head';
 
 export default () => {
   const handleChickEyeClick = () => {
-    const audio = new Audio('/horse-neighing.mp3');
-    return audio.play();
+    return new Audio('/horse-neighing.mp3').play();
   };
 
   return (
