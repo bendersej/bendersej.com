@@ -54,7 +54,10 @@ export const Head: React.FunctionComponent<Props> = (props) => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
+          rel="stylesheet"
+        />
         {GOOGLE_ANALYTICS_TAG !== null && (
           <script
             async
