@@ -11,17 +11,19 @@ export const BlogHeader: React.FunctionComponent<Props> = ({ postTitle }) => {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <img src="/img/chick.png" className={styles.logo} />
+        <a>
+          <img src="/img/chick.png" className={styles.logo} />
+        </a>
       </Link>
 
       <h1 className={styles.breadCrumb}>
         <Link href="/walking-thoughts">
-          <span
+          <a
             className={classnames(styles.originLink, {
               [styles.isHoverable]: postTitle !== undefined,
             })}>
             Walking thoughts
-          </span>
+          </a>
         </Link>
         {postTitle && (
           <div>
