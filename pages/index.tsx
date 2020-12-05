@@ -8,7 +8,7 @@ const Home = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <Head title="bendersej" url="https://bendersej.com" description="Benjamin André-Micolon" />
       <div className="home">
         <div className="home__chick">
@@ -16,9 +16,14 @@ const Home = () => {
         </div>
         <div>
           <h1 className="home__header">bendersej</h1>
-          <Link href="/about">
-            <a className="home__link">The only link on this page</a>
-          </Link>
+          <footer className="home__footer">
+            <Link href="/about">
+              <a className="home__link">About</a>
+            </Link>
+            <Link href="/walking-thoughts">
+              <a className="home__link">Walking thoughts</a>
+            </Link>
+          </footer>
         </div>
       </div>
       <style jsx>{`
@@ -53,14 +58,19 @@ const Home = () => {
 
         .home__header {
           margin: 20px 0 10px 0;
-          font-size: 60px;
+          font-size: 68px;
           text-align: center;
+        }
+
+        .home__footer {
+          display: flex;
+          justify-content: space-between;
         }
 
         .home__link {
           position: relative;
           padding-left: 25px;
-          font-size: 18px;
+          font-size: 20px;
         }
 
         .home__link::before {
@@ -108,7 +118,7 @@ const Home = () => {
           }
         }
       `}</style>
-    </React.Fragment>
+    </>
   );
 };
 

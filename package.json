@@ -13,6 +13,7 @@
 		"deploy": "yarn build && yarn upload-build && yarn start-server"
 	},
 	"dependencies": {
+		"classnames": "^2.2.6",
 		"next": "^10.0.3",
 		"postcss-nested": "^4.2.1",
 		"react": "^17.0.1",

@@ -1,0 +1,41 @@
+.article {
+  font-size: 18px;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  main {
+    margin-top: 24px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+
+    a {
+      font-style: normal;
+      border-radius: 1em 0 1em 0;
+      text-shadow: 1px 1px 1px #fff;
+      background-image: linear-gradient(
+        -100deg,
+        rgba(255, 250, 150, 0.4),
+        rgba(255, 250, 150, 0.8) 100%,
+        rgba(255, 250, 150, 0.25)
+      );
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+}

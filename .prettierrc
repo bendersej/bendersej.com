@@ -8,6 +8,20 @@
   "useTabs": false,
   "semi": true,
   "parser": "typescript",
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
   "arrowParens": "always"
 }
 
