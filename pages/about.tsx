@@ -4,7 +4,7 @@ import { Tile } from '../components/Tile';
 import { Header } from '../components/Header';
 import { BACKGROUND, EDUCATION, MISC, CONTACT, CURRENT_TITLE } from '../lib/constants';
 
-export default () => (
+const About = () => (
   <React.Fragment>
     <Head title="bendersej – about" url="https://bendersej.com/about" description={CURRENT_TITLE} />
     <div className="about">
@@ -115,3 +115,5 @@ export default () => (
     </style>
   </React.Fragment>
 );
+
+export default About;

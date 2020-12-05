@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Head } from '../components/Head';
 
-export default () => {
+const Home = () => {
   const handleChickEyeClick = () => {
     return new Audio('/horse-neighing.mp3').play();
   };
@@ -111,3 +111,5 @@ export default () => {
     </React.Fragment>
   );
 };
+
+export default Home;
