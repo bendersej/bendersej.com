@@ -2,10 +2,26 @@ export const CURRENT_TITLE = 'Engineering Lead';
 
 export const BACKGROUND = [
   {
+    title: 'Formulaire Magique – Founder',
+    href: 'https://formulairemagique.fr',
+    img: '/img/formulaire_magique.png',
+    duration: 'March 2020 – Present',
+    skills: [
+      'Typescript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'GraphQL',
+      'PostgreSQL',
+      'PDF manipulation',
+      'Playwright',
+    ],
+  },
+  {
     title: 'CNCCEF – French Foreign Trade Advisor',
     href: 'https://www.cnccef.org/en/home/',
     img: '/img/french_embassy_tallinn_estonia.svg',
-    duration: 'September 2019 – Present',
+    duration: 'September 2019 – December 2020 ▹ 1 year 3 months',
     skills: ['Diplomacy', 'Local tech scene knowledge'],
   },
   {
@@ -19,7 +35,7 @@ export const BACKGROUND = [
       'Management',
       'React',
       'Typescript',
-      'Node',
+      'Node.js',
       'Koa',
       'GraphQL',
       'Kafka',
@@ -49,7 +65,7 @@ export const BACKGROUND = [
       'ES6',
       'ReactJS',
       'Flow',
-      'Node',
+      'Node.js',
       'Express',
       'Knex',
       'MySQL',
