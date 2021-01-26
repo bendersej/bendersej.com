@@ -33,7 +33,7 @@ const WalkingThoughts = () => (
     />
     <BlogHeader />
     <BlogPostPreview
-      href="/walking-thoughts/pourquoi-l-estonie"
+      href="/walkthoughts/pourquoi-l-estonie"
       title="Pourquoi l'Estonie ?"
       date="5 Décembre 2020"
       content="On me pose régulièrement cette question. Des Estoniens, étonnés de voir un étranger vivre de son plein gré dans leur petit pays, ou bien encore des Français incrédules qui..."

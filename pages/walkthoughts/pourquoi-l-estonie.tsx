@@ -28,10 +28,10 @@ const Post = () => (
           <a href="https://fr.wikipedia.org/wiki/Estonie" target="_blank">
             L'Estonie
           </a>
-          , un pays d'Europe du nord, peuplé d'1.3 millions d'habitants, est logé entre la Lettonie,
-          la Finlande et la Russie. A la suite de la chute de l'union soviétique, le pays récupère
-          son indépendance. L'occupation soviétique a fait des dégats, notamment économiques: en
-          1938, avant la perte de cette indépendance,{' '}
+          , un pays d'Europe du nord, peuplé d'1.3 millions d'habitants, est logée entre la
+          Lettonie, la Finlande et la Russie. A la suite de la chute de l'union soviétique, le pays
+          récupère son indépendance. L'occupation soviétique a fait des dégats, notamment
+          économiques: en 1938, avant la perte de cette indépendance,{' '}
           <a href="http://www.nordicestonia.com/nordic/gdp-per-capita-of-estonia-before-soviet-union/">
             le pays a un PIB supérieur à celui de la Finlande.
           </a>
@@ -86,7 +86,44 @@ const Post = () => (
           </a>
         </p>
         <h1>Et du coup ?</h1>
-        <p>WIP</p>
+        <p>
+          C’est plus ou moins ce que je savais (merci Internet) lorsque j’ai décidé de partir pour
+          l’Estonie dans le cadre de mes études.
+        </p>
+        <p>
+          J’ai toujours été intéressé par les pays scandinaves, l’anglais, l’informatique et la
+          technologie plus généralement: l’Estonie semblait être le candidat idéal.
+        </p>
+        <p>
+          Surtout dans la mesure où je souhaitais de plus en plus partir voir ailleurs. Ajouter à
+          ça, le gouffre entre le possible et la réalité pour tout ce qui concernait ma vie de
+          citoyen se faisait de plus en plus sentir.
+        </p>
+        <p>
+          Très concrètement, j’avais vu mes parents s’occuper de la « paperasse » en grandissant et
+          je voulais pas de ce « deuxième travail ». En somme, payer des taxes et contribuer à la
+          société, oui, fournir un effort pour le faire? Ça non.
+        </p>
+        <p>
+          Et c’est la où l’Estonie me semblait être l’eldorado: une carte d’identité pour tout
+          faire, pas ou peu de bureaucracie, le tout numérisé: bref, aux antipodes de ce que j’avais
+          vécu (en spectateur) pendant toute mon enfance.
+        </p>
+        <p>Deux anecdotes que je raconte souvent, pour illustrer mon propos:</p>
+        <p>
+          La première est en lien avec ma couverture sociale étudiante. Après avoir fait une partie
+          de mes études à St Etienne, j’étais de retour à Lyon. Pour régulariser mon statut, j’étais
+          donc allé au bureau de cette même sécu. Après avoir fait la queue (30min), j’arrive au
+          guichet, tous mes papiers prêts.
+        </p>
+        <p>
+          L’employé réceptionne ces même papiers et commence à pianoter. Quelques secondes plus
+          tard, elle commence à froncer ses sourcils. Je lui demande si j’ai oublié quelque chose;
+          le verdict tombe:
+        </p>
+        <p>“Vous avez créé votre dossier à St Etienne?”</p>
+        <p>- “Oui...” (*épiphanie*)</p>
+        <p>- “Il faudra le mettre à jour la-bas, je ne peux rien faire ici. Bonne journée !”</p>
       </main>
     </Article>
   </>
