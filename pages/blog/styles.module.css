@@ -59,8 +59,9 @@
 
   ul {
     list-style: none;
-    padding-left: 12px;
-    margin-top: 0px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 4px 12px;
   }
 
   font-size: 16px;
@@ -76,4 +77,8 @@
   box-shadow: inset 0 0 14px #dfdfdf;
   max-height: 10000px;
   transition: max-height 1s ease-in-out;
+}
+
+.active {
+  text-decoration: underline;
 }

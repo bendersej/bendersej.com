@@ -142,7 +142,9 @@ const Post = () => {
             </a>{' '}
             (demander des informations une fois seulement), le tout numérisé: aux antipodes de ce
             que{' '}
-            <button onClick={() => setIsAnecdotesDisplayed((prevValue) => !prevValue)}>
+            <button
+              onClick={() => setIsAnecdotesDisplayed((prevValue) => !prevValue)}
+              className={isAnecdotesDisplayed && styles.active}>
               j’avais vécu
             </button>{' '}
             et allais devoir vivre.
@@ -184,8 +186,10 @@ const Post = () => {
               ticket, Je décide d'enjamber le portique et me dirige vers les portes du metro qui
               commence à biper.
             </p>
-            <p>Un main se pose sur mon épaule et m’arrête dans mon élan.</p>
-            <p>Je me retourne et fais face à un agent des transports:</p>
+            <p>
+              Un main se pose sur mon épaule et m’arrête dans mon élan, je me retourne et fais face
+              à un agent des transports:
+            </p>
             <ul>
               <li>« Bonsoir Monsieur, titre de transports s’il-vous-plait »</li>
               <li>
