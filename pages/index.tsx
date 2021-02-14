@@ -31,7 +31,7 @@ const Home = () => {
       <style jsx>{`
         .home {
           display: flex;
-          height: 100vh;
+          min-height: 100vh;
           align-items: center;
           flex-direction: column;
           justify-content: center;
@@ -60,7 +60,7 @@ const Home = () => {
 
         .home__header {
           margin: 20px 0 10px 0;
-          font-size: 68px;
+          font-size: 60px;
           text-align: center;
         }
 
@@ -108,15 +108,15 @@ const Home = () => {
 
         @media screen and (max-width: 768px) {
           .home__chick {
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
           }
 
           .home__chick-eye {
-            top: 70px;
-            left: 100px;
-            width: 14px;
-            height: 14px;
+            top: 60px;
+            left: 84px;
+            width: 12px;
+            height: 12px;
           }
         }
       `}</style>

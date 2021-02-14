@@ -10,8 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         main {
           display: flex;
           flex-direction: column;
-
-          padding: 30px;
+          padding: 0 30px;
 
           line-height: 1.6;
         }

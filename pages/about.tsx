@@ -36,6 +36,7 @@ const About = () => (
     <style jsx>
       {`
         .about {
+          padding: 30px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -89,7 +90,7 @@ const About = () => (
           cursor: pointer;
 
           &:hover {
-            border-color: #2b98db;
+            border-color: hsl(245deg, 100%, 60%);
           }
         }
 

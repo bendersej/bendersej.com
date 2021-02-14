@@ -27,10 +27,10 @@ const Post = () => {
         <h1>{PostMetadata.title}</h1>
         <h2>{PostMetadata.date}</h2>
         <main>
+          <p>Aga miks? – On me pose régulièrement cette question.</p>
           <p>
-            On me pose régulièrement cette question. Souvent des Estoniens, étonnés de voir un
-            étranger vivre de son plein gré dans leur petit pays, parfois des Français incrédules
-            qui ont du mal à comprendre pourquoi j'ai décidé de quitter la France.
+            Souvent des Estoniens, étonnés de voir un étranger vivre de son plein gré ici, parfois
+            des Français incrédules qui ont du mal à comprendre pourquoi j'ai quitté la France.
           </p>
           <p>
             <a href="https://fr.wikipedia.org/wiki/Estonie" target="_blank">

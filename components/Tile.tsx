@@ -87,8 +87,8 @@ export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) =
           }
           &:hover {
             .tile__tag {
-              background: #2b98db;
-              border-color: #2b98db;
+              background: hsl(245deg, 100%, 60%);
+              border-color: hsl(245deg, 100%, 60%);
               color: white;
             }
             h4 {

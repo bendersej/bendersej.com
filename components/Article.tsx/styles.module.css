@@ -1,6 +1,7 @@
 .article {
   font-size: 18px;
   line-height: 1.8;
+  padding-bottom: 20px;
 
   h1 {
     font-size: 48px;
@@ -23,14 +24,11 @@
 
     a {
       font-style: normal;
-      border-radius: 1em 0 1em 0;
-      text-shadow: 1px 1px 1px #fff;
-      background-image: linear-gradient(
-        -100deg,
-        rgba(255, 250, 150, 0.4),
-        rgba(255, 250, 150, 0.8) 100%,
-        rgba(255, 250, 150, 0.25)
-      );
+      color: hsl(245deg, 100%, 60%);
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     button {
@@ -38,10 +36,12 @@
       font-size: inherit;
       outline: none;
       cursor: pointer;
-      background-color: #efefef;
+      color: hsl(340deg, 100%, 65%);
+      background: transparent;
+      padding: 0;
 
       &:hover {
-        background-color: #d4d4d4;
+        font-weight: bold;
       }
     }
   }

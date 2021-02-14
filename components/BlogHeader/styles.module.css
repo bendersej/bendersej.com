@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  margin-bottom: 60px;
+  margin: 60px 0;
 
   .logo {
     cursor: pointer;
@@ -18,13 +18,13 @@
       &.isHoverable {
         cursor: pointer;
         &:hover {
-          color: #2b98db;
+          color: hsl(245deg, 100%, 60%);
         }
       }
     }
 
     .separator {
-      margin: 0 12px;
+      margin: 0 12px 0 0;
     }
   }
 }
