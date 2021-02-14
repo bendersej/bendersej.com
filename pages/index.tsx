@@ -21,8 +21,8 @@ const Home = () => {
               <a className="home__link">About</a>
             </Link>
             {false && (
-              <Link href="/walking-thoughts">
-                <a className="home__link">Walking thoughts</a>
+              <Link href="/blablabla">
+                <a className="home__link">Blablabla</a>
               </Link>
             )}
           </footer>

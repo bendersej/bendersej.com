@@ -1,5 +1,7 @@
 .article {
   font-size: 18px;
+  font-family: 'Arial';
+  line-height: 1.8;
 
   h1 {
     font-size: 48px;
@@ -30,6 +32,17 @@
         rgba(255, 250, 150, 0.8) 100%,
         rgba(255, 250, 150, 0.25)
       );
+    }
+
+    button {
+      border: none;
+      font-size: inherit;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #d4d4d4;
+      }
     }
   }
 
