@@ -135,7 +135,7 @@ const Post = () => {
           <p>
             L’Estonie c'était un peu le rêve (en théorie): une carte d’identité pour tout faire, pas
             ou peu de bureaucracie (
-            <a href="https://fr.wikipedia.org/wiki/Bureaucratie">un terme français au passage</a>),
+            <a href="https://fr.wikipedia.org/wiki/Bureaucratie">terme créé par un français</a>),
             avec notamment le concept du e-gouvernement du{' '}
             <a href="https://en.wikipedia.org/wiki/Once-only_principle" target="_blank">
               "Once-only"
@@ -196,7 +196,7 @@ const Post = () => {
                 “Hahah Jeune Homme, vous croyez vraiment que toutes informations peuvent tenir dans
                 cette petite machine?”
               </li>
-              <li>“OK, combien je vous dois”</li>
+              <li>“OK, combien je vous dois...”</li>
             </ul>
           </aside>
         </main>
