@@ -143,8 +143,9 @@ const Post = () => {
             (demander des informations une fois seulement), le tout numérisé: aux antipodes de ce
             que{' '}
             <button onClick={() => setIsAnecdotesDisplayed((prevValue) => !prevValue)}>
-              j’avais vécu et allais devoir vivre.
-            </button>
+              j’avais vécu
+            </button>{' '}
+            et allais devoir vivre.
           </p>
           <aside
             className={classnames({

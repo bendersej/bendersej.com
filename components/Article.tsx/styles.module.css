@@ -39,6 +39,7 @@
       font-size: inherit;
       outline: none;
       cursor: pointer;
+      background-color: #efefef;
 
       &:hover {
         background-color: #d4d4d4;
