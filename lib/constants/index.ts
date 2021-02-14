@@ -2,7 +2,7 @@ export const CURRENT_TITLE = 'Engineering Lead';
 
 export const BACKGROUND = [
   {
-    title: 'Formulaire Magique – Founder',
+    title: 'Formulaire Magique – Owner',
     href: 'https://formulairemagique.fr',
     img: '/img/formulaire_magique.png',
     duration: 'March 2020 – Present',
@@ -25,7 +25,7 @@ export const BACKGROUND = [
     skills: ['Diplomacy', 'Local tech scene knowledge'],
   },
   {
-    title: 'Sixfold, Engineering Lead',
+    title: 'Sixfold – Engineering Lead',
     href: 'https://sixfold.com',
     img: '/img/sixfold.svg',
     duration: 'January 2018 - Present',
@@ -49,7 +49,7 @@ export const BACKGROUND = [
     ],
   },
   {
-    title: 'Pipedrive, Front-End Engineer',
+    title: 'Pipedrive – Front-End Engineer',
     href: 'https://pipedrive.com',
     img: '/img/pipedrive.svg',
     duration: 'May 2017 - January 2018 ▹ 9 months',
@@ -76,7 +76,7 @@ export const BACKGROUND = [
     ],
   },
   {
-    title: 'Palleter, Front-End Engineer',
+    title: 'Palleter – Front-End Engineer',
     href: 'https://palleter.com',
     img: '/img/palleter.svg',
     duration: 'September 2016 - Apr 2017 ▹ 8 months',
@@ -96,7 +96,7 @@ export const BACKGROUND = [
     ],
   },
   {
-    title: 'Skillific, Front-End Engineer',
+    title: 'Skillific – Front-End Engineer',
     href: 'https://skillific.com',
     img: '/img/skillific.svg',
     duration: 'May 2016 - September 2016 ▹ 4 months',
@@ -112,7 +112,7 @@ export const BACKGROUND = [
     ],
   },
   {
-    title: 'Tree, Co-founder | CEO | Front-End Engineer',
+    title: 'Tree – Co-founder | CEO | Front-End Engineer',
     href: 'https://tree.social',
     img: '/img/tree.svg',
     duration: 'February 2015 - June 2017 ▹ 2 years 5 months',
@@ -132,7 +132,7 @@ export const BACKGROUND = [
     ],
   },
   {
-    title: 'Create it Real, Precision Mechanical Engineer',
+    title: 'Create it Real – Precision Mechanical Engineer',
     href: 'https://createitreal.com',
     img: '/img/cir.png',
     duration: 'September 2013 - January 2014 ▹ 5 months',
@@ -150,13 +150,13 @@ export const BACKGROUND = [
 
 export const EDUCATION = [
   {
-    title: 'Tallinn University of Technology, M.Sc Materials Engineering (Exchange)',
+    title: 'Tallinn University of Technology – M.Sc Materials Engineering (Exchange)',
     href: 'https://ttu.ee/en',
     img: '/img/ttu.png',
     duration: 'September 2014 - June 2015',
   },
   {
-    title: 'Ecole Polytechnique Universitaire de Lyon, M.Sc Materials Engineering',
+    title: 'Ecole Polytechnique Universitaire de Lyon – M.Sc Materials Engineering',
     href: 'https://www.univ-lyon1.fr/',
     img: '/img/lyon1.png',
     duration: 'September 2012 - June 2015',
