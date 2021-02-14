@@ -17,12 +17,12 @@ export const BlogHeader: React.FunctionComponent<Props> = ({ postTitle }) => {
       </Link>
 
       <h1 className={styles.breadCrumb}>
-        <Link href="/blablabla">
+        <Link href="/blog">
           <a
             className={classnames(styles.originLink, {
               [styles.isHoverable]: postTitle !== undefined,
             })}>
-            Blablabla
+            Blog
           </a>
         </Link>
         {postTitle && (

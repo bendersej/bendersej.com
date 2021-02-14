@@ -21,8 +21,8 @@ const Home = () => {
               <a className="home__link">About</a>
             </Link>
             {false && (
-              <Link href="/blablabla">
-                <a className="home__link">Blablabla</a>
+              <Link href="/blog">
+                <a className="home__link">Blog</a>
               </Link>
             )}
           </footer>
@@ -85,7 +85,7 @@ const Home = () => {
 
         .home__link:hover {
           font-weight: bold;
-          transition-delay: 0.25s;
+          transition-delay: 0.2s;
         }
 
         .home__link:hover::before {

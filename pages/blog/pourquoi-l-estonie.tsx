@@ -18,7 +18,7 @@ const Post = () => {
   return (
     <>
       <Head
-        title="bendersej – blablabla"
+        title="bendersej – blog"
         url="https://bendersej.com"
         description="Benjamin André-Micolon"
       />

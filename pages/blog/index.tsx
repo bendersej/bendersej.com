@@ -24,16 +24,16 @@ const BlogPostPreview: React.FunctionComponent<{
   );
 };
 
-const Blablabla = () => (
+const Blog = () => (
   <>
     <Head
-      title="bendersej – blablabla"
+      title="bendersej – blog"
       url="https://bendersej.com"
       description="Benjamin André-Micolon"
     />
     <BlogHeader />
     <BlogPostPreview
-      href="/blablabla/pourquoi-l-estonie"
+      href="/blog/pourquoi-l-estonie"
       title="Pourquoi l'Estonie ?"
       date="5 Décembre 2020"
       content="On me pose régulièrement cette question. Des Estoniens, étonnés de voir un étranger vivre de son plein gré dans leur petit pays, ou bien encore des Français incrédules qui..."
@@ -41,4 +41,4 @@ const Blablabla = () => (
   </>
 );
 
-export default Blablabla;
+export default Blog;

@@ -25,7 +25,7 @@ interface Props {
   title: string;
 }
 
-export const Head: React.FunctionComponent<Props> = (props) => {
+export const Head: React.FunctionComponent<Props> = ({ description, url, title, ogImage }) => {
   React.useEffect(() => {
     if (typeof window === undefined) {
       return;
@@ -37,25 +37,27 @@ export const Head: React.FunctionComponent<Props> = (props) => {
   return (
     <React.Fragment>
       <NextHead>
-        <title>{props.title || ''}</title>
-        <meta name="description" content={props.description} />
+        <title>{title ?? ''}</title>
+        <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="icon" sizes="192x192" href="/touch-icon.png" />
         <link rel="apple-touch-icon" href="/touch-icon.png" />
         <link rel="mask-icon" href="/favicon-mask.svg" color="#49B882" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:url" content={props.url} />
-        <meta property="og:title" content={props.title} />
-        <meta property="og:description" content={props.description} />
-        <meta name="twitter:site" content={props.url} />
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta name="twitter:site" content={url} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={props.ogImage} />
-        <meta property="og:image" content={props.ogImage} />
+        <meta name="twitter:image" content={ogImage} />
+        <meta property="og:image" content={ogImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
           rel="stylesheet"
         />
         {GOOGLE_ANALYTICS_TAG !== null && (
@@ -66,7 +68,7 @@ export const Head: React.FunctionComponent<Props> = (props) => {
       </NextHead>
       <style jsx global>{`
         body {
-          font-family: 'Inconsolata', monospace;
+          font-family: 'Montserrat', sans-serif;
           font-size: 16px;
           margin: 0;
           max-width: 768px;
