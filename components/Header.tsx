@@ -78,7 +78,7 @@ export const Header: React.FunctionComponent<Props> = (props) => (
 
         .header__contact-list {
           padding: 0;
-          margin: 15px 0 0 0;
+          margin: 12px 0 0 0;
           list-style: none;
           display: flex;
         }
