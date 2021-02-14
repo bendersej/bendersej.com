@@ -57,6 +57,12 @@
     font-style: normal;
   }
 
+  ul {
+    list-style: none;
+    padding-left: 12px;
+    margin-top: 0px;
+  }
+
   font-size: 16px;
   padding: 0 18px;
   margin: 0 auto;
@@ -64,6 +70,7 @@
   overflow: hidden;
   max-height: 0;
   transition: max-height 0s cubic-bezier(0, 1, 0, 1);
+  border-radius: 8px;
 }
 
 .appear {

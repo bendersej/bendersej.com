@@ -164,11 +164,11 @@ const Post = () => {
             </p>
             <p>Quelques secondes plus tard, elle commence à froncer ses sourcils:</p>
             <ul>
-              <li>Il manque quelque chose?</li>
-              <li>“Vous avez créé votre dossier à St Etienne?”</li>
-              <li>“Oui...” (*épiphanie*)</li>
+              <li>« Il manque quelque chose? »</li>
+              <li>- « Vous avez créé votre dossier à St Etienne ? »</li>
+              <li>- « Oui... » (*épiphanie*)</li>
               <li>
-                “Il faudra le mettre à jour la-bas, je ne peux rien faire ici. Bonne journée !”
+                - « Il faudra le mettre à jour la-bas, je ne peux rien faire ici. Bonne journée ! »
               </li>
             </ul>
             <br />
@@ -181,23 +181,22 @@ const Post = () => {
             </p>
             <p>
               Je fouille frénétiquement mes poches sans trouver ma carte. Pas le temps d’acheter un
-              ticket, Je décide de passer par dessus le portique et me dirige vers les portes du
-              metro qui commence à biper.
+              ticket, Je décide d'enjamber le portique et me dirige vers les portes du metro qui
+              commence à biper.
             </p>
             <p>Un main se pose sur mon épaule et m’arrête dans mon élan.</p>
-            <p>Je me retourne et fais face à un agent des transports.</p>
-            <p>La discussion qui suit:</p>
+            <p>Je me retourne et fais face à un agent des transports:</p>
             <ul>
-              <li>“Bonsoir Monsieur, titre de transports s’il-vous-plait”</li>
+              <li>« Bonsoir Monsieur, titre de transports s’il-vous-plait »</li>
               <li>
-                J’ai oublié ma carte chez moi, mais je suis abonné depuis maintenant 9 ans, vous
-                pouvez vérifier. *pointé du doigt le terminal que l’agent tient dans dans main”
+                - « J’ai oublié ma carte chez moi, mais je suis abonné depuis maintenant 9 ans, vous
+                pouvez vérifier. *pointé du doigt le terminal que l’agent tient dans dans main »
               </li>
               <li>
-                “Hahah Jeune Homme, vous croyez vraiment que toutes informations peuvent tenir dans
-                cette petite machine?”
+                - « Hahah Jeune Homme, vous croyez vraiment que toutes informations peuvent tenir
+                dans cette petite machine ? »
               </li>
-              <li>“OK, combien je vous dois...”</li>
+              <li>- « OK, combien je vous dois... »</li>
             </ul>
           </aside>
         </main>
