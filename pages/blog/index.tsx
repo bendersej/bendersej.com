@@ -29,12 +29,7 @@ const Blog = () => (
     <Head title="bendersej – blog" url="https://bendersej.com" description="Benjamin André-Micolon" />
     <div className="blog">
       <BlogHeader />
-      <BlogPostPreview
-        href="/blog/pourquoi-l-estonie"
-        title="Pourquoi l'Estonie"
-        date="5 Décembre 2020"
-        content="On me pose régulièrement cette question. Des Estoniens, étonnés de voir un étranger vivre de son plein gré dans leur petit pays, ou bien encore des Français incrédules qui..."
-      />
+      <BlogPostPreview href="/blog" title="" date="" content="" />
     </div>
     <style jsx>
       {`
