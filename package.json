@@ -1,32 +1,37 @@
 {
-	"name": "bendersej-website",
-	"version": "0.0.1",
-	"description": "Bendersej's website",
-	"author": "bendersej",
-	"license": "MIT",
-	"scripts": {
-		"dev": "next dev",
-		"build": "rm -rf .next/ && next build",
-		"start": "next start -p 8082",
-		"upload-build": "scp -r package.json yarn.lock pm2.config.json .next/ public/ root@juniortechjobs.com:/var/www/bendersej.com",
-		"start-server": "ssh root@juniortechjobs.com 'cd /var/www/bendersej.com/ && yarn install && pm2 start pm2.config.json'",
-		"deploy": "yarn build && yarn upload-build && yarn start-server"
-	},
-	"dependencies": {
-		"classnames": "^2.2.6",
-		"next": "^10.0.6",
-		"postcss-nested": "^4.2.1",
-		"react": "^17.0.1",
-		"react-dom": "^17.0.1",
-		"styled-jsx-plugin-postcss": "^4.0.0"
-	},
-	"devDependencies": {
-		"@types/node": "^14.14.10",
-		"@types/react": "^17.0.0",
-		"babel-eslint": "^10.1.0",
-		"eslint": "^7.15.0",
-		"eslint-config-prettier": "^7.2.0",
-		"prettier": "^2.2.1",
-		"typescript": "^4.1.2"
-	}
+  "name": "bendersej-website",
+  "version": "0.0.1",
+  "description": "Bendersej's website",
+  "author": "bendersej",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier .",
+    "prettier:check": "yarn prettier --check",
+    "prettier:fix": "yarn prettier --write",
+    "dev": "next dev",
+    "build": "rm -rf .next/ && next build",
+    "start": "next start -p 8082",
+    "upload-build": "scp -r package.json yarn.lock pm2.config.json .next/ public/ root@juniortechjobs.com:/var/www/bendersej.com",
+    "start-server": "ssh root@juniortechjobs.com 'cd /var/www/bendersej.com/ && yarn install && pm2 start pm2.config.json'",
+    "deploy": "yarn build && yarn upload-build && yarn start-server"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^10.0.6",
+    "postcss-nested": "^4.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-jsx-plugin-postcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@sixfold/editor-config": "^2.0.4",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.2"
+  },
+  "prettier": "@sixfold/editor-config/prettier"
 }

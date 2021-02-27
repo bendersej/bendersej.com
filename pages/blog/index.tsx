@@ -26,11 +26,7 @@ const BlogPostPreview: React.FunctionComponent<{
 
 const Blog = () => (
   <>
-    <Head
-      title="bendersej – blog"
-      url="https://bendersej.com"
-      description="Benjamin André-Micolon"
-    />
+    <Head title="bendersej – blog" url="https://bendersej.com" description="Benjamin André-Micolon" />
     <div className="blog">
       <BlogHeader />
       <BlogPostPreview

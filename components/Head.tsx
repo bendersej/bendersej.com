@@ -1,8 +1,7 @@
 import * as React from 'react';
 import NextHead from 'next/head';
 
-const GOOGLE_ANALYTICS_TAG =
-  process.env.NODE_ENV === 'production' ? process.env.GOOGLE_ANALYTICS_TAG : null;
+const GOOGLE_ANALYTICS_TAG = process.env.NODE_ENV === 'production' ? process.env.GOOGLE_ANALYTICS_TAG : null;
 
 const initGa = () => {
   if (GOOGLE_ANALYTICS_TAG === null) {
@@ -56,14 +55,9 @@ export const Head: React.FunctionComponent<Props> = ({ description, url, title, 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
         {GOOGLE_ANALYTICS_TAG !== null && (
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_TAG}`}></script>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_TAG}`}></script>
         )}
       </NextHead>
       <style jsx global>{`

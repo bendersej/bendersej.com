@@ -1,1 +1,5 @@
 .svg
+.next
+node_modules
+.eslintrc
+.babelrc

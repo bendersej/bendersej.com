@@ -6,16 +6,7 @@ export const BACKGROUND = [
     href: 'https://formulairemagique.fr',
     img: '/img/formulaire_magique.png',
     duration: 'March 2020 – Present',
-    skills: [
-      'Typescript',
-      'React',
-      'Next.js',
-      'Node.js',
-      'GraphQL',
-      'PostgreSQL',
-      'PDF manipulation',
-      'Playwright',
-    ],
+    skills: ['Typescript', 'React', 'Next.js', 'Node.js', 'GraphQL', 'PostgreSQL', 'PDF manipulation', 'Playwright'],
   },
   {
     title: 'CNCCEF – French Foreign Trade Advisor',
@@ -100,16 +91,7 @@ export const BACKGROUND = [
     href: 'https://skillific.com',
     img: '/img/skillific.svg',
     duration: 'May 2016 - September 2016 ▹ 4 months',
-    skills: [
-      'Public Speaking',
-      'Project Management',
-      'Javascript',
-      'HTML5/CSS3',
-      'AngularJS',
-      'GulpJS',
-      'SASS',
-      'BEM',
-    ],
+    skills: ['Public Speaking', 'Project Management', 'Javascript', 'HTML5/CSS3', 'AngularJS', 'GulpJS', 'SASS', 'BEM'],
   },
   {
     title: 'Tree – Co-founder | CEO | Front-End Engineer',
@@ -136,15 +118,7 @@ export const BACKGROUND = [
     href: 'https://createitreal.com',
     img: '/img/cir.png',
     duration: 'September 2013 - January 2014 ▹ 5 months',
-    skills: [
-      '3D Printing (FDM)',
-      'Laser-cutting',
-      'Solidworks',
-      'Arduino',
-      'Python',
-      'Industrial Design',
-      'Rendering',
-    ],
+    skills: ['3D Printing (FDM)', 'Laser-cutting', 'Solidworks', 'Arduino', 'Python', 'Industrial Design', 'Rendering'],
   },
 ];
 
@@ -166,12 +140,7 @@ export const EDUCATION = [
 export const MISC = [
   {
     title: 'Information Technology',
-    items: [
-      'Web Front-end & Back-end',
-      'Scripting & Scraping',
-      'Web & Industrial Design',
-      'CAD (Solidworks)',
-    ],
+    items: ['Web Front-end & Back-end', 'Scripting & Scraping', 'Web & Industrial Design', 'CAD (Solidworks)'],
   },
   {
     title: 'Languages',

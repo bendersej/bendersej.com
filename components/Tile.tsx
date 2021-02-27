@@ -13,11 +13,7 @@ interface Props {
 
 export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) => (
   <React.Fragment>
-    <a
-      className={isHoverable ? 'tile tile--hoverable' : 'tile'}
-      href={content.href}
-      target="_blank"
-      rel="noopener">
+    <a className={isHoverable ? 'tile tile--hoverable' : 'tile'} href={content.href} target="_blank" rel="noopener">
       <div className="tile__img-container">
         <img src={content.img} />
       </div>
