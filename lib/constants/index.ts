@@ -2,9 +2,9 @@ export const CURRENT_TITLE = 'Engineering Lead';
 
 export const BACKGROUND = [
   {
-    title: 'Formulaire Magique – Owner',
-    href: 'https://formulairemagique.fr',
-    img: '/img/formulaire_magique.png',
+    title: 'Simple PDF – Owner',
+    href: 'https://simplePDF.eu',
+    img: '/img/simple_pdf.png',
     duration: 'March 2020 – Present',
     skills: ['Typescript', 'React', 'Next.js', 'Node.js', 'GraphQL', 'PostgreSQL', 'PDF manipulation', 'Playwright'],
   },
