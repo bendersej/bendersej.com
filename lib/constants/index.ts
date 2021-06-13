@@ -2,6 +2,13 @@ export const CURRENT_TITLE = 'Engineering Lead';
 
 export const BACKGROUND = [
   {
+    title: 'Eesti Paigad – Co-Owner',
+    href: 'https://eestipaigad.ee',
+    img: '/img/eesti_paigad.png',
+    duration: 'May 2019 – Present',
+    skills: ['Typescript', 'React', 'Next.js'],
+  },
+  {
     title: 'Simple PDF – Owner',
     href: 'https://simplePDF.eu',
     img: '/img/simple_pdf.png',
