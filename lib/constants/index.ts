@@ -16,13 +16,6 @@ export const BACKGROUND = [
     skills: ['Typescript', 'React', 'Next.js', 'Node.js', 'GraphQL', 'PostgreSQL', 'PDF manipulation', 'Playwright'],
   },
   {
-    title: 'CNCCEF – French Foreign Trade Advisor',
-    href: 'https://www.cnccef.org/en/home/',
-    img: '/img/french_embassy_tallinn_estonia.svg',
-    duration: 'September 2019 – December 2020 ▹ 1 year 3 months',
-    skills: ['Diplomacy', 'Local tech scene knowledge'],
-  },
-  {
     title: 'Sixfold – Engineering Lead',
     href: 'https://sixfold.com',
     img: '/img/sixfold.svg',
@@ -45,6 +38,13 @@ export const BACKGROUND = [
       'Nginx',
       'CI',
     ],
+  },
+  {
+    title: 'CNCCEF – French Foreign Trade Advisor',
+    href: 'https://www.cnccef.org/en/home/',
+    img: '/img/french_embassy_tallinn_estonia.svg',
+    duration: 'September 2019 – December 2020 ▹ 1 year 3 months',
+    skills: ['Diplomacy', 'Local tech scene knowledge'],
   },
   {
     title: 'Pipedrive – Front-End Engineer',
