@@ -1,6 +1,13 @@
-export const CURRENT_TITLE = 'Engineering Lead';
+export const CURRENT_TITLE = 'Senior Software Engineer';
 
 export const BACKGROUND = [
+  {
+    title: 'Robocorp – Senior Software Engineer',
+    href: 'https://robocorp.com',
+    img: '/img/robocorp.svg',
+    duration: 'August 2021 – Present',
+    skills: ['RPA', 'Robot Framework', 'Typescript', 'React'],
+  },
   {
     title: 'Simple PDF – Owner',
     href: 'https://simplePDF.eu',
@@ -19,7 +26,7 @@ export const BACKGROUND = [
     title: 'Sixfold – Engineering Lead',
     href: 'https://sixfold.com',
     img: '/img/sixfold.svg',
-    duration: 'January 2018 - Present',
+    duration: 'January 2018 - June 2021 ▹ 3 year 6 months',
     skills: [
       'Teaching',
       'Mentoring',
