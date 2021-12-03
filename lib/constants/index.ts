@@ -6,7 +6,7 @@ export const BACKGROUND = [
     href: 'https://robocorp.com',
     img: '/img/robocorp.svg',
     duration: 'August 2021 – Present',
-    skills: ['RPA', 'Robot Framework', 'Typescript', 'React'],
+    skills: ['RPA', 'Robot Framework', 'Typescript', 'Kubernetes', 'DynamoDB', 'SQS', 'AWS Lambda', 'Epsagon'],
   },
   {
     title: 'Simple PDF – Owner',
