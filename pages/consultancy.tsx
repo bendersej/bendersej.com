@@ -39,7 +39,7 @@ const About = () => (
 					employees.
 				</p>
 				<p>
-					In 2019, Benjamin became the youngest <a href="https://www.cnccef.org/en/home/">CNCCEF</a> in the world.
+					In 2019, Benjamin became the youngest <a href="https://www.cnccef.org/en/home/">CCEF</a> in the world.
 				</p>
 				<p>
 					Throughout the years Benjamin has consulted two French ambassadors to Estonia: Claudia Delmas-Scherer and Éric
