@@ -7,7 +7,11 @@ const About = () => (
 		<Head title="bendersej – consultancy" url="https://bendersej.com/consultancy" description={CURRENT_TITLE} />
 		<div className="consultancy">
 			<div className="biography">
-				<h1>Benjamin André-Micolon</h1>
+				<h1>
+					<a className="aboutLink" href="/about">
+						Benjamin André-Micolon
+					</a>
+				</h1>
 				<div className="pictureContainer">
 					<img src="/img/ben.png" className="picture" alt="Profile picture" />
 					<div className="bioContainer">
@@ -115,6 +119,10 @@ const About = () => (
 
 				h1 {
 					margin-bottom: 34px;
+
+					a {
+						color: inherit;
+					}
 				}
 
 				.cta {
