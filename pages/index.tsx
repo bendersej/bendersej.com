@@ -20,11 +20,9 @@ const Home = () => {
 						<Link href="/about">
 							<a className="home__link about">About</a>
 						</Link>
-						{false && (
-							<Link href="/consultancy">
-								<a className="home__link consultancy">Consultancy</a>
-							</Link>
-						)}
+						<Link href="/consultancy">
+							<a className="home__link consultancy">Consultancy</a>
+						</Link>
 						{false && (
 							<Link href="/blog">
 								<a className="home__link">Blog</a>
@@ -105,7 +103,7 @@ const Home = () => {
 
 				.consultancy::after {
 					left: 48px;
-					width: 68px;
+					width: 76px;
 				}
 
 				.home__link:hover::before {
