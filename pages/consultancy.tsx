@@ -20,7 +20,7 @@ const About = () => (
 							their world leadership in digital society and government.
 						</p>
 						<p>
-							From 2014 to 2015, he finished his studies in Mechanical Engineering as part of the Erasmus Partnership
+							From 2014 to 2015, he completed his studies in Mechanical Engineering as part of the Erasmus Partnership
 							that he set up between the <a href="https://taltech.ee/en">Tallinn Tech</a> and{' '}
 							<a href="https://www.univ-lyon1.fr/en">Université Lyon 1</a>.
 						</p>
@@ -52,8 +52,8 @@ const About = () => (
 				</p>
 				<p>
 					{' '}
-					On a more personal side, Benjamin speaks Estonian, owns an apartment in the center of Tallinn and is married
-					to an Estonian. Together they are the biggest Digital Creator for local travelling:{' '}
+					On a more personal side, Benjamin speaks Estonian (B1), owns an apartment in the center of Tallinn and is
+					married to an Estonian. Together they are the biggest Digital Creator for local travelling:{' '}
 					<a href="https://eestipaigad.ee/en">Eesti Paigad</a>.
 				</p>
 			</div>
@@ -63,7 +63,7 @@ const About = () => (
 					<em>
 						<b>
 							Benjamin's combination of skills and experience allows him to provide unique insights into understanding
-							Estonia and Estonians from a French perspective as well as how these two cultures interact with each
+							Estonia and Estonians from a French perspective as well as how these two cultures can benefit from each
 							other.
 						</b>
 					</em>
@@ -73,7 +73,7 @@ const About = () => (
 				</p>
 			</div>
 			<div className="contact">
-				<p>Two hours of consultation: 499€</p>
+				<p>Two hours of consultation: 490€</p>
 				<a href="mailto:consultancy@bendersej.com">
 					<b>Book a consultation</b>
 				</a>
