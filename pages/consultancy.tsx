@@ -1,4 +1,5 @@
 import React from 'react';
+import { BackButton } from '../components/BackButton';
 import { Head } from '../components/Head';
 import { CURRENT_TITLE } from '../lib/constants';
 
@@ -78,6 +79,7 @@ const About = () => (
 					<b>Book a consultation</b>
 				</a>
 			</div>
+			<BackButton />
 		</div>
 		<style jsx>
 			{`
