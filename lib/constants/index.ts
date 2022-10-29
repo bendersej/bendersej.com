@@ -177,7 +177,7 @@ export const MISC = [
 	},
 	{
 		title: 'Interests',
-		items: ['Reading', 'Coding', 'Running', 'Video Games'],
+		items: ['Coding', 'Reading', 'Video Games', 'Running'],
 	},
 ];
 
