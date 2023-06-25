@@ -9,11 +9,8 @@
 		"prettier:check": "yarn prettier --check",
 		"prettier:fix": "yarn prettier --write",
 		"dev": "next dev",
-		"build": "rm -rf .next/ && next build",
-		"start": "next start -p 8084",
-		"upload-build": "scp -r package.json yarn.lock pm2.config.json .next/ public/ root@159.65.124.215:/var/www/bendersej.com",
-		"start-server": "ssh root@159.65.124.215 'cd /var/www/bendersej.com/ && yarn install && pm2 start pm2.config.json'",
-		"deploy": "yarn build && yarn upload-build && yarn start-server"
+		"build": "next build",
+		"start": "next start"
 	},
 	"dependencies": {
 		"classnames": "^2.2.6",
