@@ -54,8 +54,8 @@ const About = () => (
 				<p>
 					{' '}
 					On a more personal side, Benjamin speaks Estonian (B1), owns an apartment in the center of Tallinn and is
-					engaged to an Estonian. Together they are the biggest Digital Creator for local travelling:{' '}
-					<a href="https://eestipaigad.ee/en">Eesti Paigad</a>.
+					married to <a href="https://liisandremicolon.com">Liis</a>. Together they are the biggest Digital Creator for
+					local travelling: <a href="https://eestipaigad.ee/en">Eesti Paigad</a>.
 				</p>
 			</div>
 
