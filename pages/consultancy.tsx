@@ -48,8 +48,8 @@ const About = () => (
 					Axelle Lemaire and Come Berbain.
 				</p>
 				<p>
-					Benjamin currently works for the Finnish-American startup <a href="https://robocorp.com">Robocorp</a> as an
-					Engineering Lead.
+					Benjamin currently works for the American startup <a href="https://sema4.ai">Sema4.ai</a> as an Engineering
+					Lead.
 				</p>
 				<p>
 					{' '}

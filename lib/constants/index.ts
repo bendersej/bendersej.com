@@ -2,10 +2,17 @@ export const CURRENT_TITLE = 'Engineering Lead';
 
 export const BACKGROUND = [
 	{
-		title: 'Robocorp – Engineering Lead',
+		title: 'Sema4.ai – Engineering Lead',
+		href: 'https://sema4.ai',
+		img: '/img/sema4ai.svg',
+		duration: 'January 2024 – Present',
+		skills: ['LLM', 'Function Calling', 'Kubernetes', 'Typescript', 'PostgreSQL', 'Node.js', 'OTel'],
+	},
+	{
+		title: 'Robocorp (acquired by Sema4.ai) – Engineering Lead',
 		href: 'https://robocorp.com',
 		img: '/img/robocorp.svg',
-		duration: 'August 2021 – Present',
+		duration: 'August 2021 – January 2024',
 		skills: [
 			'RPA',
 			'Robot Framework',
