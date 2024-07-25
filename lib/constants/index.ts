@@ -21,7 +21,7 @@ export const BACKGROUND = [
 		title: 'Robocorp (acquired by Sema4.ai) – Engineering Lead',
 		href: 'https://robocorp.com',
 		img: '/img/robocorp.svg',
-		duration: 'August 2021 – January 2024 ▹ 2 year 6 months',
+		duration: 'August 2021 – January 2024 ▹ 2 years 6 months',
 		skills: [
 			'RPA',
 			'Robot Framework',
@@ -53,7 +53,7 @@ export const BACKGROUND = [
 		title: 'Sixfold – Engineering Lead',
 		href: 'https://sixfold.com',
 		img: '/img/sixfold.svg',
-		duration: 'January 2018 - June 2021 ▹ 3 year 6 months',
+		duration: 'January 2018 - June 2021 ▹ 3 years 6 months',
 		skills: [
 			'Teaching',
 			'Mentoring',
