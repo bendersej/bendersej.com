@@ -1,30 +1,30 @@
 .header {
-  display: flex;
-  align-items: center;
-  margin: 60px 0;
+	display: flex;
+	align-items: center;
+	margin: 60px 0;
 
-  .logo {
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-  }
+	.logo {
+		cursor: pointer;
+		width: 60px;
+		height: 60px;
+	}
 
-  .breadCrumb {
-    margin-left: 24px;
-    font-size: 20px;
-    cursor: default;
+	.breadCrumb {
+		margin-left: 24px;
+		font-size: 20px;
+		cursor: default;
 
-    .originLink {
-      &.isHoverable {
-        cursor: pointer;
-        &:hover {
-          color: hsl(245deg, 100%, 60%);
-        }
-      }
-    }
+		.originLink {
+			&.isHoverable {
+				cursor: pointer;
+				&:hover {
+					color: #2f2f2f;
+				}
+			}
+		}
 
-    .separator {
-      margin: 0 12px 0 0;
-    }
-  }
+		.separator {
+			margin: 0 12px 0 0;
+		}
+	}
 }

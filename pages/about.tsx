@@ -91,7 +91,7 @@ const About = () => (
 					cursor: pointer;
 
 					&:hover {
-						border-color: hsl(245deg, 100%, 60%);
+						border-color: #2f2f2f;
 					}
 				}
 

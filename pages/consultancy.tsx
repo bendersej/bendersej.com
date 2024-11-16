@@ -106,7 +106,8 @@ const About = () => (
 				}
 
 				a {
-					color: hsl(245deg, 100%, 60%);
+					color: #2f2f2f;
+					font-weight: bold;
 
 					&:hover {
 						text-decoration: underline;

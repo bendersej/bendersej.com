@@ -34,7 +34,7 @@ export const BackButton: React.FunctionComponent<{}> = () => {
 						top: 100%;
 						content: '';
 						height: 2px;
-						background: hsl(245deg, 100%, 60%);
+						background: #2f2f2f;
 						opacity: 0;
 						transition: linear 0.3s 0.1s;
 					}
