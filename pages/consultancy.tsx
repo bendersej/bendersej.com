@@ -53,9 +53,9 @@ const About = () => (
 				</p>
 				<p>
 					{' '}
-					On a more personal side, Benjamin speaks Estonian (B1), owns an apartment in the center of Tallinn and is
-					married to <a href="https://liisandremicolon.com">Liis</a>. Together they are the biggest Digital Creator for
-					local travelling: <a href="https://eestipaigad.ee/en">Eesti Paigad</a>.
+					On a more personal side, Benjamin speaks Estonian (B1), lives in the center of Tallinn and is married to{' '}
+					<a href="https://liisandremicolon.com">Liis</a>. Together they are the biggest Digital Creator for local
+					travelling: <a href="https://eestipaigad.ee/en">Eesti Paigad</a>.
 				</p>
 			</div>
 
@@ -74,7 +74,7 @@ const About = () => (
 				</p>
 			</div>
 			<div className="contact">
-				<p>Two hours of consultation: 490€</p>
+				<p>Two hours of consultation: 790€</p>
 				<a href="mailto:consultancy@bendersej.com">
 					<b>Book a consultation</b>
 				</a>
