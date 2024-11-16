@@ -36,8 +36,9 @@ const About = () => (
 				<p>
 					In the following years Benjamin joined multiple promising startups, including{' '}
 					<a href="https://pipedrive.com">Pipedrive</a> (which became a unicorn in 2021) and{' '}
-					<a href="https://sixfold.com">Sixfold</a>, a real-time visibility platform, where he was one of the first
-					employees.
+					<a href="https://sixfold.com">Sixfold</a> (acquired by{' '}
+					<a href="https://www.transporeon.com/en">Transporeon</a>), a real-time visibility platform, where he was one
+					of the first employees.
 				</p>
 				<p>
 					In 2019, Benjamin became the youngest <a href="https://www.cnccef.org/en/home/">CCEF</a> in the world.
