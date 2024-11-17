@@ -37,7 +37,7 @@ export const BACKGROUND = [
 	},
 	{
 		title: 'Simple PDF – Owner',
-		href: 'https://simplePDF.eu',
+		href: 'https://simplepdf.com',
 		img: '/img/simple_pdf.png',
 		duration: 'March 2020 – Present',
 		skills: ['Typescript', 'React', 'Next.js', 'Node.js', 'GraphQL', 'PostgreSQL', 'PDF manipulation', 'Playwright'],

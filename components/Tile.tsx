@@ -14,7 +14,10 @@ interface Props {
 export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) => (
 	<React.Fragment>
 		<a className={isHoverable ? 'tile tile--hoverable' : 'tile'} href={content.href} target="_blank" rel="noopener">
-			<div className="tile__img-container">
+			<div
+				className={`tile__img-container ${
+					content.img.includes('simple_pdf') || content.img.includes('eesti_paigad') ? 'large' : undefined
+				}`}>
 				<img src={content.img} />
 			</div>
 
@@ -112,6 +115,10 @@ export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) =
 				> img {
 					height: 100%;
 					width: auto;
+				}
+
+				&.large {
+					height: 78px;
 				}
 			}
 
