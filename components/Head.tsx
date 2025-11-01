@@ -53,9 +53,6 @@ export const Head: React.FunctionComponent<Props> = ({ description, url, title, 
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
         {GOOGLE_ANALYTICS_TAG !== null && (
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_TAG}`}></script>
         )}

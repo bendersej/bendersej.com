@@ -12,14 +12,12 @@ const BlogPostPreview: React.FunctionComponent<{
   href: string;
 }> = ({ href, title, date, content }) => {
   return (
-    <Link href={href}>
-      <a className={styles.preview}>
-        <h1>{title}</h1>
-        <h2>{date}</h2>
-        <section>
-          <p>{content}</p>
-        </section>
-      </a>
+    <Link href={href} className={styles.preview}>
+      <h1>{title}</h1>
+      <h2>{date}</h2>
+      <section>
+        <p>{content}</p>
+      </section>
     </Link>
   );
 };

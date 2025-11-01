@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/*
 .next/
+out/
 
 # MacOS config file
 .DS_Store

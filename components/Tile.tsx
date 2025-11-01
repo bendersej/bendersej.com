@@ -61,46 +61,47 @@ export const Tile: React.FunctionComponent<Props> = ({ content, isHoverable }) =
 						text-decoration: underline;
 					}
 				}
+			}
 
-				&--hoverable {
-					h4 {
-						&::before,
-						&::after {
-							opacity: 0;
-							transition: transform 0.3s, opacity 0.2s;
-						}
-
-						&::before {
-							position: absolute;
-							left: 0;
-							content: '[';
-							transform: translateX(0px);
-						}
-
-						&::after {
-							position: absolute;
-							right: 0;
-							content: ']';
-							transform: translateX(0px);
-						}
+			.tile.tile--hoverable {
+				h4 {
+					&::before,
+					&::after {
+						opacity: 0;
+						transition: transform 0.3s, opacity 0.2s;
 					}
-					&:hover {
-						.tile__tag {
-							background: #2f2f2f;
-							border-color: #2f2f2f;
-							color: white;
-						}
-						h4 {
-							text-decoration: none;
-							&::before {
-								opacity: 1;
-								transform: translateX(-15px);
-							}
 
-							&::after {
-								opacity: 1;
-								transform: translateX(15px);
-							}
+					&::before {
+						position: absolute;
+						left: 0;
+						content: '[';
+						transform: translateX(0px);
+					}
+
+					&::after {
+						position: absolute;
+						right: 0;
+						content: ']';
+						transform: translateX(0px);
+					}
+				}
+
+				&:hover {
+					.tile__tag {
+						background: #2f2f2f;
+						border-color: #2f2f2f;
+						color: white;
+					}
+					h4 {
+						text-decoration: none;
+						&::before {
+							opacity: 1;
+							transform: translateX(-15px);
+						}
+
+						&::after {
+							opacity: 1;
+							transform: translateX(15px);
 						}
 					}
 				}

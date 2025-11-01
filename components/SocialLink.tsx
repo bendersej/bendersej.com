@@ -2,17 +2,20 @@ import * as React from 'react';
 
 import { Medium, Dribbble, Twitter, LinkedIn, Email } from './Icons';
 
-const iconOf = {
-  medium: <Medium />,
-  dribbble: <Dribbble />,
-  twitter: <Twitter />,
-  linkedin: <LinkedIn />,
-  email: <Email />,
+const getIcon = (type: string) => {
+  const iconMap: Record<string, React.ReactElement> = {
+    medium: <Medium />,
+    dribbble: <Dribbble />,
+    twitter: <Twitter />,
+    linkedin: <LinkedIn />,
+    email: <Email />,
+  };
+  return iconMap[type];
 };
 
 interface Props {
   label: string;
-  type: keyof typeof iconOf;
+  type: 'medium' | 'dribbble' | 'twitter' | 'linkedin' | 'email';
   href: string;
 }
 
@@ -26,7 +29,7 @@ export const SocialLink: React.FunctionComponent<Props> = (props) => {
           target="_blank"
           rel="noopener"
           aria-label={props.label}>
-          {iconOf[props.type]}
+          {getIcon(props.type)}
           <span>{props.href}</span>
         </a>
       </li>
@@ -48,49 +51,49 @@ export const SocialLink: React.FunctionComponent<Props> = (props) => {
           > span {
             display: none;
           }
+        }
 
-          &--medium {
-            &:hover {
-              path:first-of-type {
-                fill: #333;
-              }
-            }
-          }
-
-          &--twitter {
-            &:hover {
-              fill: #55acee;
-            }
-          }
-
-          &--email {
+        .contact__icon.contact__icon--medium {
+          &:hover {
             path:first-of-type {
-              fill: transparent;
-            }
-            &:hover {
-              path:first-of-type {
-                fill: #ec5f5f;
-              }
+              fill: #333;
             }
           }
+        }
 
-          &--linkedin {
-            &:hover {
-              fill: #4875b4;
+        .contact__icon.contact__icon--twitter {
+          &:hover {
+            fill: #55acee;
+          }
+        }
+
+        .contact__icon.contact__icon--email {
+          path:first-of-type {
+            fill: transparent;
+          }
+          &:hover {
+            path:first-of-type {
+              fill: #ec5f5f;
             }
           }
+        }
 
-          &--dribbble {
+        .contact__icon.contact__icon--linkedin {
+          &:hover {
+            fill: #4875b4;
+          }
+        }
+
+        .contact__icon.contact__icon--dribbble {
+          circle {
+            fill: transparent;
+          }
+          &:hover {
             circle {
-              fill: transparent;
+              fill: #ea4c89;
             }
-            &:hover {
-              circle {
-                fill: #ea4c89;
-              }
-              path {
-                fill: #c32361;
-              }
+            path {
+              fill: #c32361;
             }
           }
         }

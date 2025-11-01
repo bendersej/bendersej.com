@@ -4,24 +4,25 @@ import React from 'react';
 export const BackButton: React.FunctionComponent<{}> = () => {
 	return (
 		<>
-			<Link href="/">
-				<a className="backButton">Back</a>
+			<Link href="/" className="backButton">
+				Back
 			</Link>
 			<style jsx>
 				{`
-					.backButton {
+					:global(.backButton) {
 						margin-top: 24px;
 						color: inherit;
 						position: relative;
 						padding-left: 25px;
 						font-size: 20px;
-					}
-
-					.backButton:hover {
 						text-decoration: none;
 					}
 
-					.backButton::before {
+					:global(.backButton:hover) {
+						text-decoration: none;
+					}
+
+					:global(.backButton::before) {
 						position: absolute;
 						transition: 0.2s linear;
 						left: 0;
@@ -29,7 +30,7 @@ export const BackButton: React.FunctionComponent<{}> = () => {
 						content: '<';
 					}
 
-					.backButton::after {
+					:global(.backButton::after) {
 						position: absolute;
 						top: 100%;
 						content: '';
@@ -37,20 +38,17 @@ export const BackButton: React.FunctionComponent<{}> = () => {
 						background: #2f2f2f;
 						opacity: 0;
 						transition: linear 0.3s 0.1s;
+						left: 34px;
+						width: 34px;
 					}
 
-					.backButton:hover::before {
+					:global(.backButton:hover::before) {
 						transform: translateX(10px);
 						font-weight: normal;
 					}
 
-					.backButton:hover::after {
+					:global(.backButton:hover::after) {
 						opacity: 1;
-					}
-
-					.backButton::after {
-						left: 34px;
-						width: 34px;
 					}
 				`}
 			</style>

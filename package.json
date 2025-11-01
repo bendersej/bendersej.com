@@ -6,25 +6,27 @@
 	"license": "MIT",
 	"scripts": {
 		"prettier": "prettier .",
-		"prettier:check": "yarn prettier --check",
-		"prettier:fix": "yarn prettier --write",
+		"prettier:check": "npm run prettier --check",
+		"prettier:fix": "npm run prettier --write",
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"export": "next build",
+		"deploy": "wrangler pages deploy out",
+		"preview": "wrangler pages dev out"
 	},
 	"dependencies": {
 		"classnames": "^2.2.6",
-		"next": "^12.0.4",
-		"postcss-nested": "^4.2.1",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"styled-jsx-plugin-postcss": "^4.0.0"
+		"next": "^16.0.1",
+		"react": "^19.2.0",
+		"react-dom": "^19.2.0"
 	},
 	"devDependencies": {
 		"@sixfold/editor-config": "^2.1.0",
-		"@types/node": "^14.14.34",
-		"@types/react": "^17.0.3",
-		"prettier": "^2.2.1",
-		"typescript": "^4.6.3"
+		"@types/node": "^20.0.0",
+		"@types/react": "^19.2.2",
+		"prettier": "^3.3.0",
+		"typescript": "^5.6.0",
+		"wrangler": "^4.45.3"
 	}
 }

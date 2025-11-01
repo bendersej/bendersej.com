@@ -17,15 +17,15 @@ const Home = () => {
 				<div>
 					<h1 className="home__header">bendersej</h1>
 					<footer className="home__footer">
-						<Link href="/about">
-							<a className="home__link about">About</a>
+						<Link href="/about" className="home__link about">
+							About
 						</Link>
-						<Link href="/consultancy">
-							<a className="home__link consultancy">Consultancy</a>
+						<Link href="/consultancy" className="home__link consultancy">
+							Consultancy
 						</Link>
 						{false && (
-							<Link href="/blog">
-								<a className="home__link">Blog</a>
+							<Link href="/blog" className="home__link">
+								Blog
 							</Link>
 						)}
 					</footer>
@@ -72,13 +72,15 @@ const Home = () => {
 					justify-content: space-between;
 				}
 
-				.home__link {
+				:global(.home__link) {
 					position: relative;
 					padding-left: 25px;
 					font-size: 20px;
+					color: inherit;
+					text-decoration: none;
 				}
 
-				.home__link::before {
+				:global(.home__link::before) {
 					position: absolute;
 					transition: 0.2s linear;
 					left: 0;
@@ -86,7 +88,7 @@ const Home = () => {
 					content: '>';
 				}
 
-				.home__link::after {
+				:global(.home__link::after) {
 					position: absolute;
 					top: 100%;
 					content: '';
@@ -96,22 +98,22 @@ const Home = () => {
 					transition: linear 0.3s 0.1s;
 				}
 
-				.about::after {
+				:global(.about::after) {
 					left: 36px;
 					width: 40px;
 				}
 
-				.consultancy::after {
+				:global(.consultancy::after) {
 					left: 48px;
 					width: 76px;
 				}
 
-				.home__link:hover::before {
+				:global(.home__link:hover::before) {
 					transform: translateX(10px);
 					font-weight: normal;
 				}
 
-				.home__link:hover::after {
+				:global(.home__link:hover::after) {
 					opacity: 1;
 				}
 
