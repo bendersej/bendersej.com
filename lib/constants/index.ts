@@ -5,7 +5,7 @@ export const BACKGROUND = [
 		title: 'Sema4.ai – Engineering Lead',
 		href: 'https://sema4.ai',
 		img: '/img/sema4ai.svg',
-		duration: 'January 2024 – Present',
+		duration: 'January 2024 – February 2026 ▹ 2 years 1 month',
 		skills: [
 			'LLM',
 			'Function Calling',
